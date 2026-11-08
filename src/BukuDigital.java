@@ -2,7 +2,7 @@ public class BukuDigital extends Buku {
     private double ukuranMB;
 
     public BukuDigital(String judul, String penulis, int harga, double ukuranMB) {
-        //super(judul, penulis, harga);  //java: constructor Buku in class Buku cannot be applied to given types;
+        super(judul, penulis, harga);  //java: constructor Buku in class Buku cannot be applied to given types;
         //  required: java.lang.String,java.lang.String,int
         //  found:    no arguments
         //reason: actual and formal argument lists differ in length
